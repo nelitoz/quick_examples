@@ -42,6 +42,7 @@ git diff ==> diff between your working directory and staging area
 git diff --cached ==> diff between staging area and local repo
 git diff HEAD ==> diff between working directory and local repo
 
+git diff newfeature text1 ==> diff entre el file del branch donde estoy y el file provisto text1
 
 ============
 #crea un repositorio en github
