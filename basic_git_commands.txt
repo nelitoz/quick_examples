@@ -20,7 +20,6 @@ git push ==> envia la actualizacion de archivo al repositorio remoto
 git status ==> muestra el estado de los archivos del directorio de trabajo
 
 
-
 ============
 Branches:
 ============
