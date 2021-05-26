@@ -17,9 +17,9 @@ git commit -m ==> agrega el file al repositorio local
 git push (remotename) (branchname) ==> envia los cambios al repositorio remoto
 git push ==> envia la actualizacion de archivo al repositorio remoto
 
-git status ==> muestra el estado de los archivos del directorio de trabajo
+git status ==> Muestra el estado de los archivos del directorio de trabajo
 
-git revert e871a41 ==> restaura los cambios definidos en el comit previo
+git revert e871a42 ==> restaura los cambios definidos en el comit previo
 
 ============
 Branches:
