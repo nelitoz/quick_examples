@@ -2,9 +2,15 @@ Traer y actualizar un repo basico
 git clone ==> clona un repositorio remoto
 
 git add [file] ==> agrega un file al staging area
- --
+ --git restore --staged basic_git_commands.txt ==> remueve el file del staging area
+ --git reset HEAD <file>..." remueve el file del staging area (igual que el de arriba)
+ --git rm --cached <file> borra el file del working directory
+ -- git clean -d -n
+ --git restore <file>..." decarta los cambios en el working directory
+ 
+ 
 git commit -m ==> agrega el file al repositorio local
- --
+ --git reset --soft HEAD~1  ==> regresa el ultimo commit al staging area
 
 git push ==> envia la actualizacion de archivo al repositorio remoto
 
@@ -21,4 +27,5 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/nelitoz/quick_examples.git
 git push -u origin main
+
 
