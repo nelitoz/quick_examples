@@ -12,6 +12,7 @@ git add [file] ==> agrega un file al staging area
 git commit -m ==> agrega el file al repositorio local
  --git reset --soft HEAD~1  ==> regresa el ultimo commit al staging area
 
+git push (remotename) (branchname) ==> envia los cambios al repositorio remoto
 git push ==> envia la actualizacion de archivo al repositorio remoto
 
 git status ==> muestra el estado de los archivos del directorio de trabajo
