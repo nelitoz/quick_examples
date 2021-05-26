@@ -1,0 +1,24 @@
+Traer y actualizar un repo basico
+git clone ==> clona un repositorio remoto
+
+git add [file] ==> agrega un file al staging area
+ --
+git commit -m ==> agrega el file al repositorio local
+ --
+
+git push ==> envia la actualizacion de archivo al repositorio remoto
+
+git status ==> muestra el estado de los archivos del directorio de trabajo
+
+======
+#crea un repositorio en github
+#en la terminal colocar esto:
+
+echo "# quick_examples" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nelitoz/quick_examples.git
+git push -u origin main
+
