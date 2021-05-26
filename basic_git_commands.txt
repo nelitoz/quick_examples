@@ -18,7 +18,18 @@ git push ==> envia la actualizacion de archivo al repositorio remoto
 git status ==> muestra el estado de los archivos del directorio de trabajo
 
 
+
+======
+Branches:
+
+git branch -a ==>listar branches
+git branch -r ==>listar branches
+
+git branch dacasti2 ==>crea el branch dacasti2
+git branch -d dacasti2 ==> borra el branch dacasti2
 git log
+
+
 ======
 #crea un repositorio en github
 #en la terminal colocar esto:
