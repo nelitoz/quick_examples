@@ -1,4 +1,6 @@
-Traer y actualizar un repo basico
+============
+GIT BASIS
+============
 git clone ==> clona un repositorio remoto
 
 git add [file] ==> agrega un file al staging area
@@ -19,9 +21,9 @@ git status ==> muestra el estado de los archivos del directorio de trabajo
 
 
 
-======
+============
 Branches:
-
+============
 git branch -a ==>listar branches
 git branch -r ==>listar branches
 
@@ -29,12 +31,23 @@ git branch dacasti2 ==>crea el branch dacasti2
 git branch -d dacasti2 ==> borra el branch dacasti2
 git log
 
-git checkout master ==> me cambio al master branch
-git merge dacasti2 ==> integro los cambios realizado por branch dacasti2 en branch master
+Delete remote branch
+git branch -a ==>lista los branches locales y remotos
+git push origin --delete dacasti2 ==>borra el branch remoto llamado dacasti2
 
-======
+============
+GIT DIFF
+============
+git diff ==> diff between your working directory and staging area
+git diff --cached ==> diff between staging area and local repo
+git diff HEAD ==> diff between working directory and local repo
+
+
+============
 #crea un repositorio en github
+#el repo ya debe estar creado en github
 #en la terminal colocar esto:
+============
 
 echo "# quick_examples" >> README.md
 git init
