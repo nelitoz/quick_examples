@@ -29,6 +29,8 @@ git branch dacasti2 ==>crea el branch dacasti2
 git branch -d dacasti2 ==> borra el branch dacasti2
 git log
 
+git checkout master ==> me cambio al master branch
+git merge dacasti2 ==> integro los cambios realizado por branch dacasti2 en branch master
 
 ======
 #crea un repositorio en github
