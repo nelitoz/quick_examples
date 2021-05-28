@@ -1,10 +1,7 @@
----
-user:
-  name: john
-  location:
-    city: Austin
-    state: TX
-  roles:
-    - admin
-    - user
-
+location:
+  city: CDMX
+  state: TX
+name: john
+roles:
+- admin
+- user
