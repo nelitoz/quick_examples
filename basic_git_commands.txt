@@ -7,7 +7,7 @@ git add [file] ==> agrega un file al staging area
  --git restore --staged basic_git_commands.txt ==> remueve el file del staging area
  --git reset HEAD <file>..." remueve el file del staging area (igual que el de arriba)
  --git rm --cached <file> borra el file del working directory
- -- git clean -d -n
+ -- git clean -d -n ==> Remove untracked files from the working tree recursively, dry-run
  --git restore <file>..." decarta los cambios en el working directory
  
  
