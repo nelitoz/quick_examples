@@ -4,15 +4,15 @@ GIT BASIS
 git clone ==> clona un repositorio remoto
 
 git add [file] ==> agrega un file al staging area
- --git restore --staged basic_git_commands.txt ==> remueve el file del staging area
- --git reset HEAD <file>..." remueve el file del staging area (igual que el de arriba)
- --git rm --cached <file> borra el file del working directory
+ -- git restore --staged basic_git_commands.txt ==> remueve el file del staging area
+ -- git reset HEAD <file>..." remueve el file del staging area (igual que el de arriba)
+ -- git rm --cached <file> borra el file del working directory
  -- git clean -d -n ==> Remove untracked files from the working tree recursively, dry-run
- --git restore <file>..." decarta los cambios en el working directory
+ -- git restore <file>..." descarta los cambios en el working directory
  
  
 git commit -m ==> agrega el file al repositorio local
- --git reset --soft HEAD~1  ==> regresa el ultimo commit al staging area
+ -- git reset --soft HEAD~1  ==> regresa el ultimo commit al staging area
 
 git push (remotename) (branchname) ==> envia los cambios al repositorio remoto
 git push ==> envia la actualizacion de archivo al repositorio remoto
