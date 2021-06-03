@@ -36,6 +36,11 @@ Delete remote branch
 git branch -a ==>lista los branches locales y remotos
 git push origin --delete dacasti2 ==>borra el branch remoto llamado dacasti2
 
+git checkout dacasti2
+ #make changes to your scripts
+git commit -m "fixing x stuff"
+git push origin dacasti2
+
 ============
 GIT DIFF
 ============
