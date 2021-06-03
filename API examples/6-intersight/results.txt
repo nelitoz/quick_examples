@@ -1,0 +1,3712 @@
+{
+  "ObjectType": "compute.PhysicalSummary.List",
+  "Results": [
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 2
+      },
+      "Ancestors": [],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "A,B",
+      "CpuCapacity": 40,
+      "CreateTime": "2021-06-03T01:45:33.09Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/rack-unit-5",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 2,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.088Z",
+      "Model": "HX220C-M5SX",
+      "Moid": "60b8343d76752d3130d593ee",
+      "Name": "UCSPE-10-10-20-40-5",
+      "NumAdaptors": 2,
+      "NumCpuCores": 16,
+      "NumCpuCoresEnabled": 16,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "",
+      "Serial": "RK88",
+      "ServerId": 5,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 0,
+      "SourceObjectType": "compute.RackUnit",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-e005-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 4
+      },
+      "Ancestors": [],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "A,B",
+      "CpuCapacity": 40,
+      "CreateTime": "2021-06-03T01:45:33.292Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/rack-unit-2",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 4,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.357Z",
+      "Model": "UCSC-C220-M5L",
+      "Moid": "60b8343d76752d3130d59405",
+      "Name": "UCSPE-10-10-20-40-2",
+      "NumAdaptors": 2,
+      "NumCpuCores": 16,
+      "NumCpuCoresEnabled": 16,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "",
+      "Serial": "RK85",
+      "ServerId": 2,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 0,
+      "SourceObjectType": "compute.RackUnit",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-e002-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 2
+      },
+      "Ancestors": [],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "A,B",
+      "CpuCapacity": 40,
+      "CreateTime": "2021-06-03T01:45:33.392Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/rack-unit-8",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 2,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.279Z",
+      "Model": "HX220C-M5SX",
+      "Moid": "60b8343d76752d3130d5940f",
+      "Name": "UCSPE-10-10-20-40-8",
+      "NumAdaptors": 2,
+      "NumCpuCores": 16,
+      "NumCpuCoresEnabled": 16,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "",
+      "Serial": "RK91",
+      "ServerId": 8,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 0,
+      "SourceObjectType": "compute.RackUnit",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-e008-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 2
+      },
+      "Ancestors": [],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "A,B",
+      "CpuCapacity": 40,
+      "CreateTime": "2021-06-03T01:45:33.192Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/rack-unit-9",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 2,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.33Z",
+      "Model": "HX220C-M5SX",
+      "Moid": "60b8343d76752d3130d593f6",
+      "Name": "UCSPE-10-10-20-40-9",
+      "NumAdaptors": 2,
+      "NumCpuCores": 16,
+      "NumCpuCoresEnabled": 16,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "",
+      "Serial": "RK92",
+      "ServerId": 9,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 0,
+      "SourceObjectType": "compute.RackUnit",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-e009-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 2
+      },
+      "Ancestors": [],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "A,B",
+      "CpuCapacity": 40,
+      "CreateTime": "2021-06-03T01:45:33.445Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/rack-unit-10",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 2,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.581Z",
+      "Model": "HX220C-M5SX",
+      "Moid": "60b8343d76752d3130d59413",
+      "Name": "UCSPE-10-10-20-40-10",
+      "NumAdaptors": 2,
+      "NumCpuCores": 16,
+      "NumCpuCoresEnabled": 16,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "",
+      "Serial": "RK93",
+      "ServerId": 10,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 0,
+      "SourceObjectType": "compute.RackUnit",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-e00a-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 4
+      },
+      "Ancestors": [],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "A,B",
+      "CpuCapacity": 40,
+      "CreateTime": "2021-06-03T01:45:33.243Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/rack-unit-3",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 4,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.414Z",
+      "Model": "UCSC-C240-M5S",
+      "Moid": "60b8343d76752d3130d593fe",
+      "Name": "UCSPE-10-10-20-40-3",
+      "NumAdaptors": 2,
+      "NumCpuCores": 16,
+      "NumCpuCoresEnabled": 16,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "",
+      "Serial": "RK86",
+      "ServerId": 3,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 0,
+      "SourceObjectType": "compute.RackUnit",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-e003-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 2
+      },
+      "Ancestors": [],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "A,B",
+      "CpuCapacity": 40,
+      "CreateTime": "2021-06-03T01:45:33.142Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/rack-unit-6",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 2,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.504Z",
+      "Model": "HX220C-M5SX",
+      "Moid": "60b8343d76752d3130d593f2",
+      "Name": "UCSPE-10-10-20-40-6",
+      "NumAdaptors": 2,
+      "NumCpuCores": 16,
+      "NumCpuCoresEnabled": 16,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "",
+      "Serial": "RK89",
+      "ServerId": 6,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 0,
+      "SourceObjectType": "compute.RackUnit",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-e006-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 2
+      },
+      "Ancestors": [],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "A,B",
+      "CpuCapacity": 40,
+      "CreateTime": "2021-06-03T01:45:33.342Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/rack-unit-7",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 2,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.769Z",
+      "Model": "HX220C-M5SX",
+      "Moid": "60b8343d76752d3130d5940b",
+      "Name": "UCSPE-10-10-20-40-7",
+      "NumAdaptors": 2,
+      "NumCpuCores": 16,
+      "NumCpuCoresEnabled": 16,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "",
+      "Serial": "RK90",
+      "ServerId": 7,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 0,
+      "SourceObjectType": "compute.RackUnit",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-e007-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 4
+      },
+      "Ancestors": [],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "A,B",
+      "CpuCapacity": 40,
+      "CreateTime": "2021-06-03T01:45:33.502Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/rack-unit-1",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 4,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.964Z",
+      "Model": "UCSC-C220-M5L",
+      "Moid": "60b8343d76752d3130d59417",
+      "Name": "UCSPE-10-10-20-40-1",
+      "NumAdaptors": 2,
+      "NumCpuCores": 16,
+      "NumCpuCoresEnabled": 16,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "",
+      "Serial": "RK84",
+      "ServerId": 1,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 0,
+      "SourceObjectType": "compute.RackUnit",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-e001-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 4
+      },
+      "Ancestors": [],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "A,B",
+      "CpuCapacity": 40,
+      "CreateTime": "2021-06-03T01:45:33.026Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/rack-unit-4",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 4,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.618Z",
+      "Model": "UCSC-C240-M5S",
+      "Moid": "60b8343c76752d3130d593ea",
+      "Name": "UCSPE-10-10-20-40-4",
+      "NumAdaptors": 2,
+      "NumCpuCores": 16,
+      "NumCpuCoresEnabled": 16,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "",
+      "Serial": "RK87",
+      "ServerId": 4,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 0,
+      "SourceObjectType": "compute.RackUnit",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-e004-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 1,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a18f",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "6",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:02.231Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-6/blade-5",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 65536,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:38.708Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345a76752d3130d5a3b8",
+      "Name": "UCSPE-10-10-20-40-6-5",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "inoperable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a18f",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV154",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 5,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0605-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 1,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a197",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "4",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:05.576Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-4/blade-1",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 65536,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.037Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345d76752d3130d5a461",
+      "Name": "UCSPE-10-10-20-40-4-1",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "inoperable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a197",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV134",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 1,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0401-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a193",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a193"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "3",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 25,
+      "CreateTime": "2021-06-03T01:46:04.086Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-3/blade-5",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.796Z",
+      "Model": "UCSB-EX-M4-1",
+      "Moid": "60b8345c76752d3130d5a419",
+      "Name": "UCSPE-10-10-20-40-3-5",
+      "NumAdaptors": 2,
+      "NumCpuCores": 10,
+      "NumCpuCoresEnabled": 10,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a193",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a193"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "single",
+      "Serial": "SRV132",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 5,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0305-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a18f",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "6",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:02.916Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-6/blade-4",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.244Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345a76752d3130d5a3df",
+      "Name": "UCSPE-10-10-20-40-6-4",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a18f",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV153",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 4,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0604-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a193",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a193"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "3",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 8.8,
+      "CreateTime": "2021-06-03T01:46:04.264Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-3/blade-7",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.059Z",
+      "Model": "UCSB-EX-M4-1",
+      "Moid": "60b8345c76752d3130d5a41f",
+      "Name": "UCSPE-10-10-20-40-3-7",
+      "NumAdaptors": 1,
+      "NumCpuCores": 4,
+      "NumCpuCoresEnabled": 4,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a193",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a193"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "single",
+      "Serial": "SRV133",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 7,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0307-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a193",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a193"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "3",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 25,
+      "CreateTime": "2021-06-03T01:46:03.556Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-3/blade-1",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.822Z",
+      "Model": "UCSB-EX-M4-1",
+      "Moid": "60b8345b76752d3130d5a404",
+      "Name": "UCSPE-10-10-20-40-3-1",
+      "NumAdaptors": 2,
+      "NumCpuCores": 10,
+      "NumCpuCoresEnabled": 10,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a193",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a193"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "single",
+      "Serial": "SRV130",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 1,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0301-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a18f",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "6",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:06.019Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-6/blade-7",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:38.786Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345e76752d3130d5a479",
+      "Name": "UCSPE-10-10-20-40-6-7",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a18f",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV156",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 7,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0607-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a187",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "5",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:04.602Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-5/blade-7",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:38.686Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345c76752d3130d5a431",
+      "Name": "UCSPE-10-10-20-40-5-7",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a187",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV148",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 7,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0507-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a187",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "5",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:03.918Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-5/blade-5",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.187Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345b76752d3130d5a40e",
+      "Name": "UCSPE-10-10-20-40-5-5",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a187",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV146",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 5,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0505-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a197",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "4",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:05.719Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-4/blade-7",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.89Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345d76752d3130d5a46b",
+      "Name": "UCSPE-10-10-20-40-4-7",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a197",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV140",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 7,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0407-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a193",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a193"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "3",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 25,
+      "CreateTime": "2021-06-03T01:46:04.749Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-3/blade-3",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.533Z",
+      "Model": "UCSB-EX-M4-1",
+      "Moid": "60b8345c76752d3130d5a438",
+      "Name": "UCSPE-10-10-20-40-3-3",
+      "NumAdaptors": 2,
+      "NumCpuCores": 10,
+      "NumCpuCoresEnabled": 10,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a193",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a193"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "single",
+      "Serial": "SRV131",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 3,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0303-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a187",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "5",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:03.768Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-5/blade-3",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:38.668Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345b76752d3130d5a40a",
+      "Name": "UCSPE-10-10-20-40-5-3",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a187",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV144",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 3,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0503-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a187",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "5",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:06.339Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-5/blade-6",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.507Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345e76752d3130d5a485",
+      "Name": "UCSPE-10-10-20-40-5-6",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a187",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV147",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 6,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0506-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a18f",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "6",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:03.071Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-6/blade-6",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.381Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345b76752d3130d5a3e7",
+      "Name": "UCSPE-10-10-20-40-6-6",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a18f",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV155",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 6,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0606-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a197",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "4",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:03.225Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-4/blade-3",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.426Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345b76752d3130d5a3eb",
+      "Name": "UCSPE-10-10-20-40-4-3",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a197",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV136",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 3,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0403-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a197",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "4",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:06.167Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-4/blade-6",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:38.761Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345e76752d3130d5a480",
+      "Name": "UCSPE-10-10-20-40-4-6",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a197",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV139",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 6,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0406-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a197",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "4",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:02.586Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-4/blade-4",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.563Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345a76752d3130d5a3d3",
+      "Name": "UCSPE-10-10-20-40-4-4",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a197",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV137",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 4,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0404-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 1,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a18f",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "6",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:02.43Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-6/blade-8",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 65536,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.12Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345a76752d3130d5a3c6",
+      "Name": "UCSPE-10-10-20-40-6-8",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "inoperable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a18f",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV157",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 8,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0608-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a18f",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "6",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:02.057Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-6/blade-3",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.304Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345a76752d3130d5a390",
+      "Name": "UCSPE-10-10-20-40-6-3",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a18f",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV152",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 3,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0603-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a187",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "5",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:04.457Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-5/blade-1",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:38.759Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345c76752d3130d5a42d",
+      "Name": "UCSPE-10-10-20-40-5-1",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a187",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV142",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 1,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0501-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a18f",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "6",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:02.767Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-6/blade-2",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.652Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345a76752d3130d5a3db",
+      "Name": "UCSPE-10-10-20-40-6-2",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a18f",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV151",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 2,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0602-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a18f",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "6",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:05.407Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-6/blade-1",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:38.681Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345d76752d3130d5a45a",
+      "Name": "UCSPE-10-10-20-40-6-1",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a18f",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a18f"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV150",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 1,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0601-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a187",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "5",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:05.233Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-5/blade-4",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.479Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345d76752d3130d5a450",
+      "Name": "UCSPE-10-10-20-40-5-4",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a187",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV145",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 4,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0504-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a197",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "4",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:05.075Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-4/blade-5",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:38.783Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345d76752d3130d5a44b",
+      "Name": "UCSPE-10-10-20-40-4-5",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a197",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV138",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 5,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0405-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a187",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "5",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:01.888Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-5/blade-2",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:40.592Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345976752d3130d5a369",
+      "Name": "UCSPE-10-10-20-40-5-2",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a187",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV143",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 2,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0502-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a197",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "4",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:04.913Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-4/blade-2",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.564Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345c76752d3130d5a43f",
+      "Name": "UCSPE-10-10-20-40-4-2",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a197",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV135",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 2,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0402-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a197",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "4",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:05.866Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-4/blade-8",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.22Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345d76752d3130d5a472",
+      "Name": "UCSPE-10-10-20-40-4-8",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a197",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a197"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV141",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 8,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0408-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    },
+    {
+      "AccountMoid": "60b822bc7564612d330f0d3d",
+      "AdminPowerState": "policy",
+      "AlarmSummary": {
+        "ClassId": "compute.AlarmSummary",
+        "Critical": 0,
+        "ObjectType": "compute.AlarmSummary",
+        "Warning": 0
+      },
+      "Ancestors": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b8345876752d3130d5a187",
+          "ObjectType": "equipment.Chassis",
+          "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+        }
+      ],
+      "AssetTag": "",
+      "AvailableMemory": 49152,
+      "BiosPostComplete": false,
+      "ChassisId": "5",
+      "ClassId": "compute.PhysicalSummary",
+      "ConnectionStatus": "",
+      "CpuCapacity": 19.2,
+      "CreateTime": "2021-06-03T01:46:03.406Z",
+      "DeviceMoId": "60b834286f72612d338b3d83",
+      "Dn": "sys/chassis-5/blade-8",
+      "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+      "FaultSummary": 0,
+      "Firmware": "3.1(1e)",
+      "InventoryDeviceInfo": null,
+      "Ipv4Address": "",
+      "KvmIpAddresses": [],
+      "ManagementMode": "UCSM",
+      "MemorySpeed": "not-applicable",
+      "MgmtIpAddress": "",
+      "ModTime": "2021-06-03T01:46:39.626Z",
+      "Model": "UCSB-B200-M4",
+      "Moid": "60b8345b76752d3130d5a3f8",
+      "Name": "UCSPE-10-10-20-40-5-8",
+      "NumAdaptors": 1,
+      "NumCpuCores": 8,
+      "NumCpuCoresEnabled": 8,
+      "NumCpus": 2,
+      "NumEthHostInterfaces": 0,
+      "NumFcHostInterfaces": 0,
+      "NumThreads": 16,
+      "ObjectType": "compute.PhysicalSummary",
+      "OperPowerState": "off",
+      "OperReason": [],
+      "OperState": "unassociated",
+      "Operability": "operable",
+      "Owners": [
+        "60b822bc7564612d330f0d3d",
+        "60b834286f72612d338b3d83"
+      ],
+      "Parent": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b8345876752d3130d5a187",
+        "ObjectType": "equipment.Chassis",
+        "link": "https://www.intersight.com/api/v1/equipment/Chasses/60b8345876752d3130d5a187"
+      },
+      "PermissionResources": [
+        {
+          "ClassId": "mo.MoRef",
+          "Moid": "60b822bf6972652d32dacd3e",
+          "ObjectType": "organization.Organization",
+          "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+        }
+      ],
+      "PlatformType": "UCSFI",
+      "Presence": "equipped",
+      "RegisteredDevice": {
+        "ClassId": "mo.MoRef",
+        "Moid": "60b834286f72612d338b3d83",
+        "ObjectType": "asset.DeviceRegistration",
+        "link": "https://www.intersight.com/api/v1/asset/DeviceRegistrations/60b834286f72612d338b3d83"
+      },
+      "Revision": "0",
+      "Rn": "",
+      "ScaledMode": "none",
+      "Serial": "SRV149",
+      "ServerId": 0,
+      "ServiceProfile": "",
+      "SharedScope": "",
+      "SlotId": 8,
+      "SourceObjectType": "compute.Blade",
+      "Tags": [
+        {
+          "Key": "Intersight.LicenseTier",
+          "Value": "Base"
+        }
+      ],
+      "TopologyScanStatus": "",
+      "TotalMemory": 49152,
+      "UserLabel": "",
+      "Uuid": "1b4e28ba-2fa1-11d2-0508-b9a761bde3fb",
+      "Vendor": "Cisco Systems Inc"
+    }
+  ]
+}{"code":"UnauthorizedOperation","message":"Cannot perform an operation without license permission. Essential license is required.","messageId":"barcelona_license_permission_denied","messageParams":{"1":"Essential"},"traceId":""}{"code":"UnauthorizedOperation","message":"Cannot perform an operation without license permission. Essential license is required.","messageId":"barcelona_license_permission_denied","messageParams":{"1":"Essential"},"traceId":""}{
+  "Moid": "60b838296275722d30e5632e",
+  "ObjectType": "ntp.Policy",
+  "ClassId": "ntp.Policy",
+  "CreateTime": "2021-06-03T02:02:17.607911892Z",
+  "ModTime": "2021-06-03T02:02:17.607911892Z",
+  "Tags": [],
+  "Owners": [
+    "60b822bc7564612d330f0d3d"
+  ],
+  "SharedScope": "",
+  "AccountMoid": "60b822bc7564612d330f0d3d",
+  "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+  "Ancestors": null,
+  "PermissionResources": [
+    {
+      "ObjectType": "organization.Organization",
+      "ClassId": "mo.MoRef",
+      "Moid": "60b822bf6972652d32dacd3e",
+      "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+    }
+  ],
+  "Description": "NTP Policy for ntp.org",
+  "Name": "ntp-policy",
+  "AuthenticatedNtpServers": [],
+  "Enabled": true,
+  "NtpServers": [
+    "pool.ntp.org"
+  ],
+  "Timezone": "Pacific/Niue",
+  "Organization": {
+    "ObjectType": "organization.Organization",
+    "ClassId": "mo.MoRef",
+    "Moid": "60b822bf6972652d32dacd3e",
+    "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+  },
+  "Profiles": null
+}{
+  "Moid": "60b839086275722d30e588e2",
+  "ObjectType": "ntp.Policy",
+  "ClassId": "ntp.Policy",
+  "CreateTime": "2021-06-03T02:06:00.827282419Z",
+  "ModTime": "2021-06-03T02:06:00.827282419Z",
+  "Tags": [],
+  "Owners": [
+    "60b822bc7564612d330f0d3d"
+  ],
+  "SharedScope": "",
+  "AccountMoid": "60b822bc7564612d330f0d3d",
+  "DomainGroupMoid": "60b822bc7564612d330f0d3f",
+  "Ancestors": null,
+  "PermissionResources": [
+    {
+      "ObjectType": "organization.Organization",
+      "ClassId": "mo.MoRef",
+      "Moid": "60b822bf6972652d32dacd3e",
+      "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+    }
+  ],
+  "Description": "NTP Policy for ntp.org West Coast",
+  "Name": "ntp-policy-west",
+  "AuthenticatedNtpServers": [],
+  "Enabled": true,
+  "NtpServers": [
+    "0.pool.ntp.org",
+    "1.pool.ntp.org"
+  ],
+  "Timezone": "Pacific/Niue",
+  "Organization": {
+    "ObjectType": "organization.Organization",
+    "ClassId": "mo.MoRef",
+    "Moid": "60b822bf6972652d32dacd3e",
+    "link": "https://www.intersight.com/api/v1/organization/Organizations/60b822bf6972652d32dacd3e"
+  },
+  "Profiles": null
+}
