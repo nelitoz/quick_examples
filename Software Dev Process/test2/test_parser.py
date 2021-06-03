@@ -13,9 +13,16 @@ class TestParse(unittest.TestCase):
     def test_parse_customer_vlan(self):
         cp = ConfigurationParser()
         customer_name = "CUSTOMER_A"
-        expected_vlan = 100
+        expected_vlan = ['100', '102']
         parsed_vlan = cp.parseCustomerVlan(customer_name)
         self.assertEqual(expected_vlan, parsed_vlan)
+
+    def test_parse_customer_ip(self):
+        cp = ConfigurationParser()
+        vlan = "100"
+        expected_ip = "10.10.100.1"
+        parsed_ip = cp.parseCustomerIP(vlan)
+        self.assertEqual(parsed_ip, expected_ip)
 
 
 if __name__ == "__main__":

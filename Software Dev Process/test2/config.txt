@@ -20,8 +20,17 @@ interface GigabitEthernet0/0.101
   ip nat outside
   ip virtual-reassembly in
 !
+interface GigabitEthernet0/0.102
+  encapsulation dot1Q 102
+  ip vrf forwarding CUSTOMER_A
+  ip address 10.10.102.1 255.255.255.0
+  no ip redirects
+  ip nat outside
+  ip virtual-reassembly in
+!
 Interface                  IP-Address
 Embedded-Service-Engine0/0 unassigned
 GigabitEthernet0/0         192.168.254.2
 GigabitEthernet0/0.100     10.10.100.1
 GigabitEthernet0/0.101     10.10.101.1
+GigabitEthernet0/0.102     10.10.102.1
