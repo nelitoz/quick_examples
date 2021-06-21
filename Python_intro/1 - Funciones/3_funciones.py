@@ -1,6 +1,6 @@
 print("""
 # 
-# First-Class functions 
+# First-Class 1 - Funciones 
 #  
 #  ----    1  ------
 #  Las funciones pueden ser asignadas a una variable.
@@ -16,7 +16,7 @@ print (addition(1,1))
 
 print("""
 # 
-# First-Class functions 
+# First-Class 1 - Funciones 
 #  
 #  ----    2  ------
 #  Pasar una funcion como argumento a otra funcion
@@ -37,7 +37,7 @@ print (square)
 
 print("""\n\n
 # 
-# First-Class functions 
+# First-Class 1 - Funciones 
 #  
 #  ----    3  ------
 #  una funcion que retorna a otra funcion

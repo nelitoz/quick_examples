@@ -2,7 +2,7 @@
 print("""
 # 
 #  ----    1  ------
-# Void functions
+# Void 1 - Funciones
 #
 #""")
 def calc():

@@ -42,7 +42,7 @@ print ("\n")
 print ("#ahora un ejemplo mas practico")
 
 import logging
-logging.basicConfig(filename='Python_intro/functions/funciones_IV.log', level=logging.INFO)
+logging.basicConfig(filename='Python_intro/1 - Funciones/funciones_IV.log', level=logging.INFO)
 
 def logger(func):
     def log_func(*args):

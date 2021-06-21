@@ -44,7 +44,7 @@ print("""
 #""")
 """
 
-En realidad Python no soporta por default el concepto de abstract classes.
+En realidad Python no soporta por default el concepto de abstract 3 - Classes.
 regla de abstracciones: La clase abstracta no se puede instanciar 
 Esta se rompe porque el objeto cuerpo es una instancia de la clase Shape 
 Para convertir una clase normal, a una clase abstracta, usamos al modulo abc

@@ -1,4 +1,4 @@
-# Helper module with User class and additional functions
+# Helper module with User class and additional 1 - Funciones
 from datetime import date
 
 ## User Class
