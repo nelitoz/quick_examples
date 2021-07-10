@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nf:rpc-reply xmlns:nf="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns="http://www.cisco.com/nxos:6.2.16.:if_man
+ager">
+ <nf:data>
+  <show>
+   <interface>
+    <status>
+     <down>
+      <__readonly__>
+       <TABLE_interface>
+        <ROW_interface>
+         <interface>Ethernet4/1</interface>
+         <name>connected to bank1</name>
+         <state>sfpAbsent</state>
+         <vlan>1</vlan>
+         <duplex>auto</duplex>
+         <speed>auto</speed>
+         <type>--</type>
+        </ROW_interface>
+        <ROW_interface>
+         <interface>Ethernet7/9</interface>
+         <name>&lt;&lt;PUERTO LIBRE&gt;&gt;</name>
+         <state>sfpAbsent</state>
+         <vlan>routed</vlan>
+         <duplex>auto</duplex>
+         <speed>auto</speed>
+         <type>--</type>
+        </ROW_interface>
+        <ROW_interface>
+         <interface>Ethernet8/16</interface>
+         <name>&lt;&lt;PUERTO LIBRE&gt;&gt;</name>
+         <state>sfpAbsent</state>
+         <vlan>routed</vlan>
+         <duplex>auto</duplex>
+         <speed>auto</speed>
+         <type>--</type>
+        </ROW_interface>
+        <ROW_interface>
+         <interface>Ethernet8/44</interface>
+         <name>&lt;&lt;PUERTO LIBRE&gt;&gt;</name>
+         <state>sfpAbsent</state>
+         <vlan>routed</vlan>
+         <duplex>auto</duplex>
+         <speed>auto</speed>
+         <type>--</type>
+        </ROW_interface>
+        <ROW_interface>
+         <interface>Ethernet10/7</interface>
+         <name>&lt;&lt;PUERTO LIBRE&gt;&gt;</name>
+         <state>disabled</state>
+         <vlan>routed</vlan>
+         <duplex>auto</duplex>
+         <speed>auto</speed>
+         <type>10GBASE-SR</type>
+        </ROW_interface>
+       </TABLE_interface>
+      </__readonly__>
+     </down>
+    </status>
+   </interface>
+  </show>
+ </nf:data>
+</nf:rpc-reply>
