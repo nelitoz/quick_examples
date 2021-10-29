@@ -1,0 +1,11 @@
+show interface
+show interface status up
+show cdp nei
+show vpc
+show port-channel summary
+show span
+show spanning-tree summary
+show spanning-tree root brief
+show mac address-table
+show mac address-table | count
+sh ip arp vrf all

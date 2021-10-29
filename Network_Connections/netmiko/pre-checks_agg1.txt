@@ -1,0 +1,26 @@
+show interface
+show interface status up
+show cdp nei
+show vpc
+show port-channel summary
+show span
+show spanning-tree summary
+show spanning-tree root brief
+sh spanning-tree interface Po422 state
+sh spanning-tree interface po410 state
+sh spanning-tree interface Po415 state
+sh spanning-tree interface Po432 state
+sh spanning-tree interface Po416 state
+sh spanning-tree interface Po406 state
+sh spanning-tree interface Po433 state
+sh spanning-tree interface Po434 state
+sh spanning-tree interface Po420 state
+sh spanning-tree interface Po326 state
+sh spanning-tree interface Po330 state
+sh spanning-tree interface Po329 state
+sh spanning-tree interface Po436 state
+sh spanning-tree interface Po435 state
+sh spanning-tree interface Po423 state
+show mac address-table
+show mac address-table | count
+sh ip arp vrf all
