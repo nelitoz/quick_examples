@@ -7,7 +7,7 @@ def open_xml(file):
         xml_data = xmltodict.parse(xml_example)
     return xml_data
 
-xml_data = open_xml("dc2_int_down.xml")
+xml_data = open_xml("2dc2_int_down.xml")
 
 #in case the Row interface is equal to a list, meaning there are more than 1 interface
 if type(xml_data["nf:rpc-reply"]["nf:data"]["show"]["interface"]["status"]["up"]["__readonly__"]["TABLE_interface"]["ROW_interface"])==list:

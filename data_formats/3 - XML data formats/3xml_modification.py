@@ -46,4 +46,4 @@ tree = ET.parse("3input.xml")
 root = tree.getroot()
 
 root.find(".//sites").append(XML_element_L1)
-tree.write("output.xml")
+tree.write("3output.xml")
