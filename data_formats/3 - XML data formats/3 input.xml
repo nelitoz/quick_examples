@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vpn>
+  <customer>NPF_cust1</customer>
+  <contact>info@npf.cust1</contact>
+  <sites>
+    <site id='1'>
+      <provider_side>
+        <router>DUS-1</router>
+        <port>Gig1/1/1</port>
+        <ipv4>10.0.0.1/30</ipv4>
+        <ipv6>fc00::10:0:0:1/126</ipv6>
+      </provider_side>
+      <customer_side>
+        <router>CUST-DUS-1</router>
+        <port>xe-0/0/1</port>
+        <ipv4>10.0.0.2/30</ipv4>
+        <ipv6>fc00::10:0:0:2/126</ipv6>
+      </customer_side>
+      <enabled/>
+    </site>
+    <site id='2'>
+      <provider_side>
+        <router>FRA-1</router>
+        <port>1/1/2</port>
+        <ipv4>10.0.0.5/30</ipv4>
+        <ipv6>fc00::10:0:0:5/126</ipv6>
+      </provider_side>
+      <customer_side>
+        <router>CUST-FRA-1</router>
+        <port>Ethernet1</port>
+        <ipv4>10.0.0.6/30</ipv4>
+        <ipv6>fc00::10:0:0:6/126</ipv6>
+      </customer_side>
+      <enabled/>
+    </site>
+  </sites>
+</vpn>
+
