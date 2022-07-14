@@ -74,14 +74,14 @@ def get_consecutive_integer_series(integer_list):
             yield "{0}-{1}".format(sliced_list[0], sliced_list[-1])
 
 
-def get_differentials(set1,set2):
+def get_differentials(set1, po):
     set1 = set(set1)
-    set2 = set(set2)
+    #set2 = set(set2)
     #print(f"Diferencia Simetricas{sorted(set1.symmetric_difference(set2))}\n\n")
 
-    print(f"dev1 tiene:{len(set1)} vlans")
+    print(f"{len(set1)} vlans in {po}")
     #print(f"Falta en dev1:{sorted(set2.difference(set1))}\n\n")
 
-    print(f"dev2 tiene:{len(set2)} vlans")
+    #print(f"dev2 tiene:{len(set2)} vlans")
     #print(f"Falta en dev2:{sorted(set1.difference(set2))}\n\n")
 
