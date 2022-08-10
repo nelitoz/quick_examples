@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content%}
+    <h1>Welcome to my internal web page</h1>
+    <p>
+        This is just a<em> lab</em> and this is a nice book to read
+        <a href="https://www.ciscopress.com/store/network-programmability-and-automation-fundamentals-9781587145148"> Book </a>
+    </p>
+    <img src="/static/dacasti2.jpg">
+    <p>
+        {{message}}
+    </p>
+    <p>
+        <h2>FLASH CARDS</h2>
+    <p>
+        Learn some spanish
+    </p>
+    {% for card in db_data %}
+    <ul>
+        <li>
+        <a href="{{url_for('cards', index=loop.index0) }}">
+            {{ card.question }}
+        </a>
+        </li>
+    </ul>
+    {% endfor %}
+
+    </p>
+{% endblock %}

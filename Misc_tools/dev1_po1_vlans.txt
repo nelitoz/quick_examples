@@ -1,0 +1,11 @@
+
+interface port-channel847
+  description PCH CO15-UC4 Gig 1/47 (PO32)
+  switchport
+  switchport mode trunk
+  switchport trunk allowed vlan 1139,1691,2280-2281,2495-2496,2792-2793
+  switchport trunk allowed vlan add 2883,3424
+  spanning-tree guard root
+  storm-control broadcast level 10.00
+  storm-control multicast level 10.00
+  vpc 847

@@ -1,0 +1,22 @@
+interface port-channel 232
+  shutdown
+  description PCH CO27-23B1-CC3 Gig 0/19 (PO12)
+  switchport
+  switchport mode trunk
+  switchport trunk allowed vlan 16,64,79,100,140,146,391,443,446
+  switchport trunk allowed vlan add 448,450,459,478-479,485,488,503
+  switchport trunk allowed vlan add 600,630,644,646-647,649,657,700-712
+  switchport trunk allowed vlan add 715-717,719,758-759,840,1095,1876
+  switchport trunk allowed vlan add 1878-1879,1910,1913-1922,1933-1934
+  switchport trunk allowed vlan add 1938-1939,1944-1947,1983,1997,2014-2018
+  switchport trunk allowed vlan add 2051,2081,2129,2182-2183,2185,2191
+  switchport trunk allowed vlan add 2210-2211,2214,2218,2221,2362,2451
+  switchport trunk allowed vlan add 2462,2506,2512,2571-2576,2683,2708
+  switchport trunk allowed vlan add 2715,2732,2735,2754,2813,2859,3036
+  switchport trunk allowed vlan add 3046,3255,3374-3375,3472,3483,3646
+  switchport trunk allowed vlan add 3701-3702,3705,3801,3866-3868,3929
+  spanning-tree guard root
+  spanning-tree bpdufilter disable
+  storm-control broadcast level 10.00
+  storm-control multicast level 10.00
+  vpc 232

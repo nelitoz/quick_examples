@@ -1,0 +1,66 @@
+============
+GIT BASIS
+============
+git clone ==> clona un repositorio remoto
+
+git add [file] ==> agrega un file al staging area
+ -- git restore file.txt ==> restaura el file modificado a su version original del working dir
+ -- git restore --staged basic_git_commands.txt ==> remueve el file del staging area
+ -- git reset HEAD <file>..." remueve el file del staging area (igual que el de arriba)
+ 
+ -- git rm --cached <file> borra el file del working directory
+ -- git clean -d -n ==> Remove untracked files from the working tree recursively, dry-run
+ 
+ 
+git commit -m ==> agrega el file al repositorio local
+ -- git reset --soft HEAD~1  ==> regresa el ultimo commit al staging area
+
+git push (remotename) (branchname) ==> envia los cambios al repositorio remoto
+git push ==> envia la actualizacion de archivo al repositorio remoto
+
+git status ==> Muestra el estado de los archivos del directorio de trabajo
+
+git revert e871a42 ==> restaura los cambios definidos en el comit previo
+
+============
+Branches:
+============
+git branch -a ==>listar branches
+git branch -r ==>listar branches
+
+git branch dacasti2 ==>crea el branch dacasti2
+git branch -d dacasti2 ==> borra el branch dacasti2
+git log
+
+Delete remote branch
+git branch -a ==>lista los branches locales y remotos
+git push origin --delete dacasti2 ==>borra el branch remoto llamado dacasti2
+
+git checkout dacasti2
+ #make changes to your scripts
+git commit -m "fixing x stuff"
+git push origin dacasti2
+
+============
+GIT DIFF
+============
+git diff ==> diff between your working directory and staging area
+git diff --cached ==> diff between staging area and local repo
+git diff HEAD ==> diff between working directory and local repo
+
+git diff newfeature text1 ==> diff entre el file del branch donde estoy y el file provisto text1
+
+============
+#crea un repositorio en github
+#el repo ya debe estar creado en github
+#en la terminal colocar esto:
+============
+
+echo "# quick_examples" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nelitoz/quick_examples.git
+git push -u origin main
+

@@ -1,0 +1,17 @@
+interface port-channel237
+  shutdown
+  description PCH CP27-22B3-MC3 Gig 0/19 (PO12)
+  switchport
+  switchport mode trunk
+  switchport trunk allowed vlan 1-145,147-600,603-629,632-656,658-688
+  switchport trunk allowed vlan add 690-2114,2116-2120,2123-2131,2133-2175
+  switchport trunk allowed vlan add 2177-2183,2185-2189,2191-2193,2195-2201
+  switchport trunk allowed vlan add 2203-2230,2232-2343,2345-2361,2363-2379
+  switchport trunk allowed vlan add 2381-2392,2394-2451,2453-2464,2466-2482
+  switchport trunk allowed vlan add 2484-2521,2523-2529,2531-3350,3352-3373
+  switchport trunk allowed vlan add 3376-3378,3380-4094
+  spanning-tree guard root
+  speed 1000
+  duplex full
+  storm-control broadcast level 10.00
+  vpc 237

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet", 
+    href="/static/style.css">
+    <title>Card</title>
+</head>
+  <h1>Try this:</h1>
+  <p>
+    Q:{{card.question}}
+  </p>
+  <p>
+    A:{{card.answer}}
+  </p>
+    <p>
+    <a href="{{url_for('welcome') }}">
+        Return to HOME
+    </a>
+    </p>
+<P>
+    <button>
+       {% if index < max_index-1 %}
+        <a href="{{url_for('cards', index=index+1) }}">
+            NEXT
+        </a>
+       {% else %}
+        <a href=" {{url_for('cards', index=0) }}">
+            BEGINNING
+        </a>
+       {% endif %}
+    </button>
+
+    {% if index>0 %}
+        <button>
+        <a href="{{url_for('cards', index=index-1) }}">
+            PREVIOUS
+        </a>
+        </button>
+    {% endif %}
+
+</P>
+
+<p> remove card</p>
+<p>
+    <a href="{{url_for('remove_card', index=index)}}"> REMOVE</a>
+</p>
+<body>
+
+</body>
+</html>

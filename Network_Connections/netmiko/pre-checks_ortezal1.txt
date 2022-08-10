@@ -1,0 +1,8 @@
+show running-config vdc-all
+show version
+show module
+show hardware
+show license
+show environment power
+show logging
+show vdc membership

@@ -1,0 +1,7 @@
+location:
+  city: CDMX
+  state: TX
+name: john
+roles:
+- admin
+- user
